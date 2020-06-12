@@ -25,6 +25,12 @@
     #page_search-results .cards img{
         height: 200px;
     }
+    #page_create_point .field_group{
+        flex-direction: column;
+    }
+    #page_create_point .field_group .field + field {
+        margin-left: 0;
+    }
 }
 
 @media(min-width: 1700px){
